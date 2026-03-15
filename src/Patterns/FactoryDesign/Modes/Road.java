@@ -5,6 +5,6 @@ import Patterns.FactoryDesign.Logistics;
 public class Road implements Logistics {
     @Override
     public void send() {
-        System.out.println("Road sends to Logistics");
+        System.out.println("Road used for Logistics");
     }
 }
